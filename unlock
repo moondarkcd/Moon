@@ -1,0 +1,5 @@
+$nomention
+$modifyChannelPerms[$channelID;-sendmessages;$guildID]
+$title[Canal de texto]
+$description[Este canal foi lockado com sucesso, use (SEU PREFIXO)unlock para desbloquea-lo!]
+$onlyAdmin[Apenas para admins!]
