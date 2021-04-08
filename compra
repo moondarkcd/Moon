@@ -1,0 +1,11 @@
+comprar (troque diamantes pela sua moeda!)
+
+$nomention
+$onlyIf[$getUserVar[Diamantes]>=50;$username Você não tem R$50]
+$title[Compra!]
+$color[#4ffff3]
+$description[Você comprou um headphone por R$50] 
+$setUserVar[Diamantes;$sub[$getUserVar[Diamantes];300]]
+$setUserVar[headphone;$sum[$getUserVar[headphone];1]]
+
+Depois só mude headphone pelo oq vc quer vender
