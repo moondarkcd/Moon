@@ -1,7 +1,7 @@
-$title[Diamantes Diários]
-$color[#b7a3ff]
+$title[~ Daily ~ ]
+$color[#F0000]
 $author[$username]
 $authorIcon[$authorAvatar]
-$description[Você resgatou seus diamantes diários!] $$random[100;10000]]$setUserVar[Diamantes;$sum[$getUserVar[Diamantes];$random[100;10000]]]
+$description[Você resgatou seus diamantes diários e ganhou $$random[10;1000]]$setUserVar[Diamantes;$sum[$getUserVar[Diamantes];$random[10;1000]]]
 $nomention
-$cooldown[12h;Você tem que esperar 12 horas para resgatar seu Daily novamente!]
+$cooldown[8h;Você tem que esperar 8h para resgatar seus diamantes de novo!]
