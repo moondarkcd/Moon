@@ -1,0 +1,5 @@
+$nomention
+$title[Dinheiro]
+$color[2737]
+$description[$username Vc possui $$getUserVar[Money]
+]
